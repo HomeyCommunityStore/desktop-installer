@@ -7,7 +7,8 @@
     "compile": "electron-webpack",
     "dist": "yarn compile && electron-builder",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
-    "dist:all": "yarn compile && electron-builder -wlm --x64"
+    "dist:all": "yarn compile && electron-builder -wlm --x64",
+    "release": "electron-builder --mac --win --linux -p always"
   },
   "author": "Max van de Laar",
   "license": "GPL-3.0-or-later",
@@ -27,7 +28,15 @@
       {
         "provider": "github",
         "owner": "MaxvandeLaar",
-        "repo": "homey-community-store-installer"
+        "repo": "homey-community-store-installer",
+        "vPrefixedTagName": true
+      },
+      {
+        "provider": "s3",
+        "bucket": "homey-community-store",
+        "acl": "public-read",
+        "region": "eu-central-1",
+        "path": "/com.maxvandelaar.homey-community-store-installer"
       }
     ],
     "mac": {
