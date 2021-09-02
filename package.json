@@ -80,7 +80,7 @@
     "monitorctrlc": "^2.0.1",
     "node-fetch": "^2.6.0",
     "npm-programmatic": "0.0.10",
-    "object-path": "^0.11.4",
+    "object-path": "^0.11.6",
     "parse-git-config": "^3.0.0",
     "source-map-support": "^0.5.16",
     "streamifier": "^0.1.1",
