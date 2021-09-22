@@ -22,7 +22,7 @@
         <b-col class="text-center" v-if="multipleHomeys">
           <small class="d-block mb-3">To install the Homey Community Store app for multiple Homey's, just repeat the installation for each Homey you own. You can switch Homey's by selecting another one in the dropdown.</small>
           <b-dropdown right :text="activeHomey.name" class="mb-3">
-            <b-dropdown-item v-for="homey in homeys" @click="selectHomey(homey)">{{homey.name}}</b-dropdown-item>
+            <b-dropdown-item v-for="homeyI in homeys" @click="selectHomey(homeyI)">{{homeyI.name}}</b-dropdown-item>
           </b-dropdown>
         </b-col>
       </b-row>

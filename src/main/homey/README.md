@@ -29,22 +29,22 @@ For documentation, refer to [Homey Compose](https://apps.developer.athom.com/tut
 ### Z-Wave
 The `zwave` plugin installs [homey-meshdriver](https://www.npmjs.com/package/homey-meshdriver).
 
-For documentation, refer to [AppPluginZwave](lib/AppPluginZwave/index.js).
+For documentation, refer to [AppPluginZwave](lib/AppPluginZwave/index.ts).
 
 ### Zigbee
 The `zigbee` plugin installs [homey-meshdriver](https://www.npmjs.com/package/homey-meshdriver).
 
-For documentation, refer to [AppPluginZigbee](lib/AppPluginZigbee/index.js).
+For documentation, refer to [AppPluginZigbee](lib/AppPluginZigbee/index.ts).
 
 ### RF
 The `rf` plugin installs [homey-rfdriver](https://www.npmjs.com/package/homey-rfdriver), and copies pairing templates to `/.homeycompose/`.
 
-For documentation, refer to [AppPluginRF](lib/AppPluginRF/index.js).
+For documentation, refer to [AppPluginRF](lib/AppPluginRF/index.ts).
 
 ### OAuth2
 The `oauth2` plugin installs [homey-oauth2app](https://github.com/athombv/node-homey-oauth2app).
 
-For documentation, refer to [AppPluginOAuth2](lib/AppPluginOAuth2/index.js).
+For documentation, refer to [AppPluginOAuth2](lib/AppPluginOAuth2/index.ts).
 
 ### Log
 The `log` plugin installs [homey-log](https://www.npmjs.com/package/homey-log). You must still require the module in the app yourself:
