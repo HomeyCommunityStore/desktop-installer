@@ -64,10 +64,10 @@ array-flatten@1.1.1:
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
-athom-api@^3.1.1:
-  version "3.2.12"
-  resolved "https://registry.yarnpkg.com/athom-api/-/athom-api-3.2.12.tgz#d6d7efbb00e40ebbc028ba4ef297bbeed51497e6"
-  integrity sha512-jRjNP4aMy0cp41ft/W5a4+g5NkfyWu8V+QK8ecrzwrLVtlamOHtwjWjJtpJp2yRDfXKDNlnilI0BUeaIgLcevw==
+athom-api@^3.7.3:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/athom-api/-/athom-api-3.7.4.tgz#81f95e3322c9692f0a3befe7c27d264faae67b9c"
+  integrity sha512-KykN+HgfwbdcDBMcM1rSbTGnas2iC+cHNrjgDU/b334GcQI2Iw9pXibXXB+nqpBgHK2xhpgZnPEXFA8CBYpjyA==
 
 balanced-match@^1.0.0:
   version "1.0.0"
