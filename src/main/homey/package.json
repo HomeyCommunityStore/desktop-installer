@@ -54,7 +54,7 @@
     "semver": "^5.5.0",
     "tar-fs": "^1.16.0",
     "tmp-promise": "^1.0.4",
-    "underscore": "^1.8.3",
+    "underscore": "^1.13.3",
     "upath": "^1.2.0",
     "update-notifier": "^2.3.0",
     "yargs": "^11.0.0"
