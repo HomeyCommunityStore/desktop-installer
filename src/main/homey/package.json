@@ -56,7 +56,7 @@
     "tmp-promise": "^1.0.4",
     "underscore": "^1.8.3",
     "upath": "^1.2.0",
-    "update-notifier": "^2.3.0",
+    "update-notifier": "^6.0.0",
     "yargs": "^11.0.0"
   },
   "deprecated": false,
